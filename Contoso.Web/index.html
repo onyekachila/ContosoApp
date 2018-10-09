@@ -1,12 +1,16 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="contosoApp">
 <head>
     <meta charset="utf-8" />
     <title></title>
 </head>
-<body>
-    <p>Javascript is like wife</p>
-    <p>Angular is like girlfriend</p>
-    <script src="Scripts/angular.min.js"></script>
+<body ng-controller="StudentController">
+    
+    <p> {{whatisjavascript}} </p>
+    <p> {{whatisangular}} </p>
+    
+    <script src="Scripts/angular.min.js"></script> 
+    <script src="contoso.js"></script>
+    <script src="StudentController.js"></script>
 </body> 
 </html>
